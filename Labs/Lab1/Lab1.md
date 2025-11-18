@@ -8,10 +8,14 @@ A North Korean hacking group targeted software developers by pretending to be re
 
 The schema:
 
-1.Attackers pose as recruiters and convince developers to run a “test” file.
-2.Victim downloads/executes a small JavaScript loader (or installs a malicious package).
+1 .Attackers pose as recruiters and convince developers to run a “test” file.
+
+2 .Victim downloads/executes a small JavaScript loader (or installs a malicious package).
+
 3. The loader queries a smart contract (via blockchain API/RPC) and retrieves encoded payload data.
+
 4. The loader decodes the on-chain data and runs the second-stage payload (backdoor/stealer).
+
 5. The malware collects wallet keys/passwords, sends data to the attacker, and installs persistence; blockchain storage gives the attackers a resilient delivery/update channel.
 
 -	Behaviors/ Tactics/ Technics used:
