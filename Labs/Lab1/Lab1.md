@@ -5,7 +5,9 @@ Lab work no. 1
 
 -	The description and the schema of the attack:
 A North Korean hacking group targeted software developers by pretending to be recruiters or legitimate companies. They convinced the victims to run a small “test” file. That file secretly connected to the blockchain, downloaded hidden malicious code stored inside a smart contract, and installed a backdoor on the victim’s computer. With this backdoor, the attackers were able to steal cryptocurrency wallet keys, passwords, and other sensitive data. Because the malicious code was stored on the blockchain instead of a normal server, it was much harder for security systems to detect or remove it.
+
 The schema:
+
 1.Attackers pose as recruiters and convince developers to run a “test” file.
 2.Victim downloads/executes a small JavaScript loader (or installs a malicious package).
 3. The loader queries a smart contract (via blockchain API/RPC) and retrieves encoded payload data.
